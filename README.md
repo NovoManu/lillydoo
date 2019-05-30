@@ -1,4 +1,4 @@
-# lillydoo
+# Lillidoo test project
 
 ## Project setup
 ```
@@ -15,15 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### Auto format code
 ```
-npm run test
+npm run format
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
