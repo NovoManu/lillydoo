@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  overflow-y: scroll; /* All browsers without overlaying scrollbars */
+  -webkit-text-size-adjust: 100%; /* iOS 8+ */
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+* {
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+button::-moz-focus-inner {
+  border-style: 0;
+  padding: 0;
+}
+
+button:-moz-focusring {
+  outline: 0;
+  border: 0;
+}
+
+button {
+  font: inherit;
+  background-color: transparent;
+  border-style: none;
+  color: inherit;
+  text-transform: none;
+  -webkit-appearance: button;
+  overflow: visible;
+  cursor: pointer;
+}
+
+img {
+  border-style: none;
+}

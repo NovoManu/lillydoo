@@ -1,0 +1,27 @@
+@import "../utilities/all";
+
+.composition {
+  padding: 4rem 0;
+  .title {
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .trial-img {
+    width: 20%;
+    margin-right: 20px;
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+  .trial-info {
+    h4 {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    ul {
+      margin: 1rem 0 1rem 1rem;
+      font-size: .9rem;
+    }
+  }
+}

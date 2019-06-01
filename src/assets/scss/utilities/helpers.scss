@@ -1,0 +1,28 @@
+@import "variables";
+a {
+  text-decoration: none;
+  color: $link;
+  &:hover,
+  &:focus {
+    color: $link-active;
+  }
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+}
+.primary-color {
+  color: $link;
+}
+.title {
+  font-family: 'Museo', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.subheading {
+  font-size: .9rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
