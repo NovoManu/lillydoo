@@ -5,7 +5,7 @@ export interface Package {
 }
 
 export interface OverviewPackage {
-  image: string,
-  title: string,
+  image: string
+  title: string
   description: string[]
 }

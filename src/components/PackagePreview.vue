@@ -1,7 +1,11 @@
 <template>
   <div class="flex xs12 md6">
     <div class="package package-wrapper">
-      <img src="@/assets/img/oekotex_de.png" alt="Package Logo" class="package-logo" />
+      <img
+        src="@/assets/img/oekotex_de.png"
+        alt="Package Logo"
+        class="package-logo"
+      />
       <div class="package-slider">
         <img :src="compilePreview" alt="Package Image" />
       </div>
